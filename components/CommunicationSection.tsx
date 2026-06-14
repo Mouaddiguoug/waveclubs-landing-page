@@ -93,7 +93,7 @@ export default function CommunicationSection() {
           </div>
 
           {/* Right: Mockup */}
-          <div className="relative">
+          <div className="relative md:block hidden">
             {/* Inbox mockup */}
             <div className="bg-white rounded-2xl border border-slate-200 shadow-xl overflow-hidden">
               {/* Header */}
@@ -164,7 +164,7 @@ export default function CommunicationSection() {
             </div>
 
             {/* Floating badge */}
-            <div className="absolute -top-4 -right-4 bg-white rounded-xl shadow-lg border border-slate-100 px-4 py-2.5 flex items-center gap-2.5">
+            <div className="absolute -top-4 right-0 md:-right-4 bg-white rounded-xl shadow-lg border border-slate-100 px-4 py-2.5 flex items-center gap-2.5">
               <span className="w-2 h-2 rounded-full bg-green-400 animate-pulse" />
               <span className="text-sm font-semibold text-slate-700">
                 AI is handling replies
