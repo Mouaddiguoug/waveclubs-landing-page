@@ -40,7 +40,6 @@ const benefits = [
   { icon: Heart,     label: "Health coverage",        body: "Full health insurance for you and your family, wherever you're based." },
   { icon: Zap,       label: "Learning budget",        body: "€500/year for courses, books, and conferences that make you better at what you do." },
 ];
-
 const roles = [
   {
     title: "Full-Stack Engineer",
