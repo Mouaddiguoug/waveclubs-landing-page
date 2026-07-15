@@ -181,11 +181,11 @@ export default function PricingPage() {
 
               {/* CTA */}
               <Link
-                href="https://dashboard.waveclubs.com/signup"
+                href="/download"
                 className="flex items-center justify-center gap-2 w-full py-3.5 rounded-xl font-semibold text-sm text-white transition-all duration-200 cursor-pointer mb-8 hover:opacity-90"
                 style={{ background: "#0F172A" }}
               >
-                Start free trial
+                Download now
                 <ArrowRight size={15} />
               </Link>
 
@@ -298,14 +298,14 @@ export default function PricingPage() {
 
                   {/* CTA */}
                   <Link
-                    href="https://dashboard.waveclubs.com/signup"
+                    href="/download"
                     className="flex items-center justify-center gap-2 w-full py-3.5 rounded-xl font-semibold text-sm text-white transition-all duration-200 cursor-pointer mb-8 hover:brightness-110"
                     style={{
                       background: "linear-gradient(135deg, #0EA5E9 0%, #06B6D4 100%)",
                       boxShadow: "0 4px 24px rgba(14,165,233,0.40), 0 1px 0 rgba(255,255,255,0.15) inset",
                     }}
                   >
-                    Start free trial
+                    Download now
                     <ArrowRight size={15} />
                   </Link>
 
@@ -409,10 +409,10 @@ export default function PricingPage() {
             </p>
             <div className="flex flex-col sm:flex-row items-center justify-center gap-3">
               <Link
-                href="https://dashboard.waveclubs.com/signup"
+                href="/download"
                 className="inline-flex items-center gap-2 bg-white text-slate-900 font-semibold px-7 py-3.5 rounded-xl cursor-pointer hover:bg-white/90 transition-colors duration-200"
               >
-                Start free trial
+                Download now
                 <ArrowRight size={17} />
               </Link>
               <Link

@@ -182,10 +182,10 @@ export default function Hero() {
           style={{ animation: "hero-text-in 0.65s ease-out 0.52s both" }}
         >
           <Link
-            href="#"
+            href="/download"
             className="inline-flex items-center gap-2 bg-white text-slate-900 font-semibold px-7 py-3.5 rounded-xl cursor-pointer hover:bg-white/90 transition-colors duration-200"
           >
-            Get started free
+            Download now
             <ArrowRight size={18} />
           </Link>
           <Link

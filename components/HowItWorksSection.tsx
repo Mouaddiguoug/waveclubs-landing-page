@@ -254,10 +254,10 @@ export default function HowItWorksSection() {
 
                   {cta && (
                     <Link
-                      href="https://dashboard.waveclubs.com/signup"
+                      href="/download"
                       className="btn-primary inline-flex items-center gap-2 mt-5 text-sm font-semibold text-white px-5 py-2.5 rounded-xl cursor-pointer"
                     >
-                      Get started free
+                      Download now
                       <ArrowRight size={15} />
                     </Link>
                   )}

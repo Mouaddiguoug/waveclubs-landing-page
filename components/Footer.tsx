@@ -6,6 +6,7 @@ const links: Record<string, { label: string; href: string }[]> = {
     { label: "Features",     href: "/#features" },
     { label: "How It Works", href: "/#how-it-works" },
     { label: "Pricing",      href: "/pricing" },
+    { label: "Download",     href: "/download" },
     { label: "Changelog",    href: "#" },
   ],
   Company: [

@@ -41,10 +41,10 @@ export default function CTASection() {
 
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-8">
           <Link
-            href="https://dashboard.waveclubs.com/signup"
+            href="/download"
             className="inline-flex items-center gap-2 bg-white text-slate-900 font-semibold px-8 py-4 rounded-xl cursor-pointer hover:bg-white/90 transition-colors duration-200 text-base"
           >
-            Get started for free
+            Download now
             <ArrowRight size={18} />
           </Link>
           <Link

@@ -575,10 +575,10 @@ export default function AboutPage() {
               </p>
               <div className="flex flex-col sm:flex-row gap-3">
                 <Link
-                  href="https://dashboard.waveclubs.com/signup"
+                  href="/download"
                   className="btn-primary inline-flex items-center justify-center gap-2 font-semibold text-sm text-white px-6 py-3.5 rounded-xl cursor-pointer"
                 >
-                  Get started free
+                  Download now
                   <ArrowRight size={15} />
                 </Link>
                 <Link

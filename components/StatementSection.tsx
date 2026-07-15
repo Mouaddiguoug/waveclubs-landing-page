@@ -38,10 +38,10 @@ export default function StatementSection() {
 
         {/* CTA */}
         <Link
-          href="https://dashboard.waveclubs.com/signup"
+          href="/download"
           className="btn-primary inline-flex items-center gap-2 text-white font-semibold px-8 py-4 rounded-xl text-base cursor-pointer"
         >
-          Get started free
+          Download now
           <ArrowRight size={18} />
         </Link>
 
