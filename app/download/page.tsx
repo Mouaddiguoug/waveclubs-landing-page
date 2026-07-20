@@ -10,9 +10,9 @@ import Footer from "@/components/Footer";
 const APP_VERSION = "0.1.0";
 
 const WINDOWS_URL =
-  "https://pub-1485b486529f4beb86121037e6e0a0a6.r2.dev/WaveClubs%20Setup%200.1.0.exe";
+  "https://pub-1485b486529f4beb86121037e6e0a0a6.r2.dev/windows/WaveClubs%20Setup%200.1.0.exe";
 const MACOS_URL =
-  "https://pub-1485b486529f4beb86121037e6e0a0a6.r2.dev/WaveClubs-0.1.0-arm64.dmg";
+  "https://pub-1485b486529f4beb86121037e6e0a0a6.r2.dev/macos/WaveClubs-0.1.0-arm64.dmg";
 
 // ── Brand icons (Simple Icons paths) ──
 function WindowsIcon({ className }: { className?: string }) {
